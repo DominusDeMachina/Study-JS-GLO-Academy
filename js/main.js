@@ -55,7 +55,7 @@ function notAuthorized() {
 
     login = loginInput.value;
 
-    if (login) {
+    if (login.trim()) {
       loginInput.style.borderColor = '';
       loginInput.style.borderStyle = '';
 
